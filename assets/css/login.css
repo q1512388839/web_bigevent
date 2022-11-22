@@ -1,0 +1,54 @@
+body,
+html {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	width: 100%;
+	background: url('../images/login_bg.jpg') no-repeat center;
+	background-size: cover;
+}
+
+.loginAndRegBox {
+	position: absolute;
+	width: 400px;
+	height: 310px;
+	background-color: #fff;
+	top: 50%;
+	left: 50%;
+	transform: translateX(-50%) translateY(-50%);
+}
+
+.title_box {
+	height: 60px;
+	line-height: 60px;
+	text-align: center;
+}
+
+.login-box,
+.reg-box {
+	padding: 0 30px;
+}
+
+.fi {
+	position: relative;
+}
+
+.l_icon {
+	position: absolute;
+	padding-left: 10px;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+.fi .ipt {
+	padding-left: 32px;
+}
+
+.l_r {
+	display: flex;
+	justify-content: flex-end;
+}
+
+.reg-box {
+	display: none;
+}
